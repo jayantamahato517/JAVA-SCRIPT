@@ -664,8 +664,66 @@
 //     return el * 2;
 // });
 
-let nums = [1,2,3,4,5,6,7,8,9];
-let ans = nums.filter((el) => {
-    return el % 2 == 0;
-});
-console.log(ans);
+// let nums = [1,2,3,4,5,6,7,8,9];
+// let ans = nums.filter((el) => {
+//     return el % 2 == 0;
+// });
+// console.log(ans);
+
+
+// let num = [1,2,3,4];
+// let ans = num.map((el) =>{
+//     return el * 2;
+// });
+// console.log(ans);
+
+
+// let num = [1,2,3,4,5];
+// let ans = num.filter((el) =>{
+//     return el % 2 != 0;
+// });
+// console.log(ans);
+
+// let nums = [1,3,5,7,9];
+// let ans = nums.every((el) => {
+//     return el % 2 != 0;
+// });
+// console.log(ans);
+
+// let nums = [1,9,3,5];
+// let ans = nums.some((el) => {
+//     return el % 2 == 0;
+// });
+// console.log(ans); 
+
+
+// let arr = [1,0,2,3,4,5];
+// let result = arr.reduce((min,el) => {
+//     if(el < min){
+//         return el;
+//     } else {
+//         return min;
+//     }
+// });
+// console.log(result);
+
+
+// let arr = [20,30,40,50];
+// let ans = arr.every((el) => {
+//     return el % 10 == 0;
+// });
+// console.log(ans);
+
+// function getMin(nums) {
+//     let min = nums.reduce((min,el) => {
+//         if(min < el){
+//             return min;
+//         } else {
+//             return el;
+//         }
+//     });
+//     console.log(min);
+// }
+
+// let nums = [-1,2,3,4,5];
+// getMin(nums);
